@@ -28,7 +28,7 @@ const Card = ({ item ,carts ,setCarts }) => {
                 <span className={`absolute top-2.5 right-2.5 py-1.5 px-3 rounded-full ${tagType.toLowerCase() == 'best seller' ? 'bg-amber-100 text-amber-500' : tagType.toLowerCase() == 'popular' ? 'bg-blue-100 text-primary ' : tagType.toLowerCase() == 'new' ? 'bg-green-100 text-green-500 ' : 'bg-red-300'}  `}>{tagType}</span>
             </div>
             <h3 className='text-2xl font-bold '>{name}</h3>
-            <p className='text-[16px] text-gray-400'>{description}</p>
+            <p >{description}</p>
             <p ><span className='text-2xl font-bold '>${price}</span><span>/{period}</span></p>
             <div>
                 {features.map((element, index) => <Features element={element} key={index} />)}

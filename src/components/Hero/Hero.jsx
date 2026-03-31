@@ -9,7 +9,7 @@ const Hero = () => {
                 </div>
 
                 <h1 className="text-7xl font-extrabold leading-20 ">Supercharge Your <br />Digital Workflow</h1>
-                <p className=" text-[#627382]">Access premium AI tools, design assets, templates, and productivity <br />
+                <p>Access premium AI tools, design assets, templates, and productivity <br />
                     software—all in one place. Start creating faster today. <br />
                     Explore Products
                 </p>

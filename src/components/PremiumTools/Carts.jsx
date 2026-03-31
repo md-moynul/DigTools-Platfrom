@@ -35,7 +35,7 @@ const Carts = ({ carts, setCarts }) => {
                                 />)
                         }
                         <div className='flex justify-between'>
-                            <p className='text-gray-400'>Total : </p>
+                            <p>Total : </p>
                             <p className='font-bold text-2xl'>${total}</p>
                         </div>
                         <button onClick={() => handelPayment()} className='btn w-full btn-primary rounded-full'>Proceed to Checkout</button>

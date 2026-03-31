@@ -5,13 +5,13 @@ import Carts from './Carts';
 const PremiumToolsBody = ({ dataPromise, status, carts, setCarts }) => {
     const data = use(dataPromise);
 
-    
+
     return (
         <div>
             {
                 status === 'card'
                     ?
-                    <div className='grid grid-cols-3 gap-7.5 '>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 '>
                         {
                             data.map(
                                 item =>
@@ -27,9 +27,9 @@ const PremiumToolsBody = ({ dataPromise, status, carts, setCarts }) => {
                     :
                     <div className=''>
                         <Carts
-                         carts={carts}
-                         setCarts={setCarts}
-                         />
+                            carts={carts}
+                            setCarts={setCarts}
+                        />
                     </div>
 
             }
