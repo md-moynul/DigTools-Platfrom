@@ -6,7 +6,7 @@ const Carts = ({ carts, setCarts }) => {
     const total = carts.reduce((sum, item) => sum + item.price, 0);
     const handelPayment = () => {
         setCarts([]);
-        toast.success('Payment success!')
+        toast.success(`$${total} Payment success` )
     }
 
 

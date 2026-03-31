@@ -6,6 +6,8 @@ import Navbar from './components/Navbar/Navbar'
 import PremiumTools from './components/PremiumTools/PremiumTools'
 import Steps from './components/Steps/Steps'
 import Pricing from './components/Pricing/Pricing'
+import Workflow from './components/Workflow/Workflow'
+import Footer from './components/Footer/Footer'
 const dataPromiseFun = async () => {
   const res = await fetch('/data.json')
   return res.json();
@@ -17,7 +19,7 @@ function App() {
 
   return (
     <>
-      <header className=' shadow-xl sticky top-0 bg-base-100'>
+      <header className=' shadow-xl sticky top-0 bg-base-100 z-5'>
         <Navbar carts={carts} />
       </header>
       <Hero />
@@ -35,6 +37,8 @@ function App() {
         <Steps/>
       </section>
       <Pricing/>
+      <Workflow/>
+      <Footer/>
   
     </>
   )

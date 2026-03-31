@@ -12,6 +12,7 @@ const Card = ({ item ,carts ,setCarts }) => {
         setStatus(true)
         const isIn  = carts.find(element => element.id === item.id)
         if(isIn){
+            toast.error(`${item.name} is already in carts`);
             return 
         }
         
