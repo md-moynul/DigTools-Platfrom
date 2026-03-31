@@ -1,3 +1,4 @@
+import { MoveRight, Play } from "lucide-react";
 
 const Hero = () => {
     return (
@@ -13,8 +14,8 @@ const Hero = () => {
                     Explore Products
                 </p>
                 <div className="flex gap-4 pt-4 ">
-                    <button className="btn btn-primary rounded-full px-7 py-4 hover:bg-white hover:text-primary">Explore Products</button>
-                    <button className="btn btn-primary btn-outline rounded-full px-7 py-4">Watch Demo</button>
+                    <button className="btn btn-primary rounded-full px-7 py-4 hover:bg-white hover:text-primary">Explore Products <MoveRight/></button>
+                    <button className="btn btn-primary btn-outline rounded-full px-7 py-4">    <Play/> Watch Demo</button>
                 </div>
             </div>
             <div className="">
