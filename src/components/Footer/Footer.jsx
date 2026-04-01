@@ -6,11 +6,11 @@ import { RiTwitterXLine } from 'react-icons/ri';
 
 const Footer = () => {
     return (
-        <div className='bg-black  pt-30 pb-7 '>
+        <div className='bg-black pt-15 lg:pt-30 pb-3.5 lg:pb-7 px-10 lg:px-0 '>
             <div className='space-y-20 max-w-7xl mx-auto p-2 '>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-auto text-white'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-auto text-white'>
                     <div className='space-y-4'>
-                        <img src="/public/assets/DigiTools-footer.png" alt="" />
+                        <img src="/assets/DigiTools-footer.png" alt="" />
                         <h4 className='font-light'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</h4>
                     </div>
                     <div className='space-y-4'>

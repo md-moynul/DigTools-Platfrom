@@ -3,13 +3,13 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div className='max-w-7xl mx-auto  space-y-10 py-30'>
+        <div className='max-w-7xl mx-auto  space-y-10 py-15 px-10 lg:px-0 lg:py-30'>
             <div className='text-center space-y-4'>
-                <h3 className='text-5xl font-extrabold '>Simple, Transparent Pricing</h3>
+                <h3 className='text-3xl lg:text-5xl font-extrabold '>Simple, Transparent Pricing</h3>
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-7 '>
-                <div className='flex flex-col shadow p-6 w-95 space-y-3 bg-[#F9FAFC] rounded-xl'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 '>
+                <div className='flex flex-col shadow p-6 space-y-3 bg-[#F9FAFC] rounded-xl'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Starter</h3>
                         <p>Perfect for getting started</p>
@@ -25,7 +25,7 @@ const Pricing = () => {
                     </ul>
                     <button className='btn w-full bg-linear-to-l from-[#4F39F6] to-[#9514FA] font-bold text-white rounded-full'>Get Started Free</button>
                 </div>
-                <div className='flex flex-col shadow p-6 w-95 space-y-3 bg-linear-to-l from-[#4F39F6] to-[#9514FA]  text-white rounded-xl'>
+                <div className='flex flex-col shadow p-6 space-y-3 bg-linear-to-l from-[#4F39F6] to-[#9514FA]  text-white rounded-xl'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Pro</h3>
                         <h4>Best for professionals</h4>
@@ -43,7 +43,7 @@ const Pricing = () => {
                     </ul>
                     <button className='btn w-full btn-white  font-bold text-primary rounded-full'>Get Start Pro Trial</button>
                 </div>
-                <div className='flex flex-col shadow p-6 w-95 space-y-3 bg-[#F9FAFC] rounded-xl'>
+                <div className='flex flex-col shadow p-6 space-y-3 bg-[#F9FAFC] rounded-xl'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Enterprise</h3>
                         <p>For teams and businesses</p>

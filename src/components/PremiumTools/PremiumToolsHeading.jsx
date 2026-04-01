@@ -6,7 +6,7 @@ const PremiumToolsHeading = ({setStatus ,carts}) => {
     }
     return (
         <div className='space-y-4 text-center '>
-            <h3 className='text-5xl font-extrabold '>
+            <h3 className='text-3xl   lg:text-5xl font-extrabold '>
                 Premium Digital Tools
             </h3>
             <p className='text-gray-400'>

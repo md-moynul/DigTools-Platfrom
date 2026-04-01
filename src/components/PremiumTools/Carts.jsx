@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Cart from './Cart';
 import { toast } from 'react-toastify';
 
