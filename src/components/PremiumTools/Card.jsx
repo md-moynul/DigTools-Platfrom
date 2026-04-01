@@ -23,14 +23,14 @@ const Card = ({ item ,carts ,setCarts }) => {
 
 
     return (
-        <div className='p-6 space-y-4 shadow rounded-xl relative'>
+        <div className='p-6 space-y-4 shadow hover:shadow-2xl shadow-primary rounded-xl relative transition-all duration-300 hover:scale-101'>
             <div>
                 <img className=' object-contain w-10 h-10' src={icon} alt="" />
                 <span className={`absolute top-2.5 right-2.5 py-1.5 px-3 rounded-full ${tagType.toLowerCase() == 'best seller' ? 'bg-amber-100 text-amber-500' : tagType.toLowerCase() == 'popular' ? 'bg-blue-100 text-primary ' : tagType.toLowerCase() == 'new' ? 'bg-green-100 text-green-500 ' : 'bg-red-300'}  `}>{tagType}</span>
             </div>
             <h3 className='text-2xl font-bold '>{name}</h3>
             <p >{description}</p>
-            <p ><span className='text-2xl font-bold '>${price}</span><span>/{period}</span></p>
+            <h3 ><span className='text-2xl font-bold '>${price}</span><span>/{period}</span></h3>
             <div>
                 {features.map((element, index) => <Features element={element} key={index} />)}
             </div>

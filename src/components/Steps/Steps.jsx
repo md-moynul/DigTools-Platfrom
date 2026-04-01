@@ -8,7 +8,7 @@ const Steps = () => {
                 <p className='text-gray-400'>Start using premium digital tools in minutes, not hours.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
-                <div className='space-y-4 p-6 shadow rounded-xl bg-base-100 flex flex-col justify-center relative'>
+                <div className='space-y-4 p-6 shadow -xl bg-base-100 flex flex-col justify-center relative  hover:shadow-2xl shadow-primary rounded-xl  transition-all duration-300 hover:scale-101' >
                     <span className='flex justify-center items-center '>
                         <div className='bg-linear-to-l from-[#4F39F6]/10 to-[#9514FA]/10 p-5 rounded-full '>
                             <img src="/assets/user.png" alt="" />
@@ -19,7 +19,7 @@ const Steps = () => {
                     <p >Sign up for free in seconds. No credit card required to get started.</p>
                     <span className='bg-linear-to-l from-[#4F39F6] to-[#9514FA] w-10 h-10 rounded-full flex justify-center items-center font-bold text-xs text-white absolute top-5 right-5 '>01</span>
                 </div>
-                <div className='space-y-4 p-6 shadow rounded-xl bg-base-100 flex flex-col justify-center relative'>
+                <div className='space-y-4 p-6  rounded-xl bg-base-100 flex flex-col justify-center shadow hover:shadow-2xl shadow-primary  relative transition-all duration-300 hover:scale-101'>
                     <span className='flex justify-center items-center '>
                         <div className='bg-linear-to-l from-[#4F39F6]/10 to-[#9514FA]/10 p-5 rounded-full '>
                             <img src="/assets/package.png" alt="" />
@@ -30,7 +30,7 @@ const Steps = () => {
                     <p >Browse our catalog and select the tools that fit your needs.</p>
                     <span className='bg-linear-to-l from-[#4F39F6] to-[#9514FA] w-10 h-10 rounded-full flex justify-center items-center font-bold text-xs text-white absolute top-5 right-5 '>02</span>
                 </div>
-                <div className='space-y-4 p-6 shadow rounded-xl bg-base-100 flex flex-col justify-center relative'>
+                <div className='space-y-4 p-6 bg-base-100 flex flex-col justify-center shadow hover:shadow-2xl shadow-primary rounded-xl relative transition-all duration-300 hover:scale-101'>
                     <span className='flex justify-center items-center '>
                         <div className='bg-linear-to-l from-[#4F39F6]/10 to-[#9514FA]/10 p-5 rounded-full '>
                             <img src="/assets/rocket.png" alt="" />

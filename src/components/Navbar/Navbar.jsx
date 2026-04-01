@@ -6,7 +6,7 @@ const Navbar = ({ carts }) => {
 
     return (
         <div className="max-w-7xl mx-auto flex justify-between py-4 font-semibold sticky top-0 px-6  lg:px-0 ">
-            <img src="assets/digitools.png" alt="" />
+            <a href=""><img src="assets/digitools.png" alt="" /></a>
             <ul className="hidden lg:flex justify-center items-center gap-8 ">
                 <li><a href="">Products</a></li>
                 <li><a href="">Features</a></li>
@@ -14,7 +14,7 @@ const Navbar = ({ carts }) => {
                 <li><a href="">Testimonials</a></li>
                 <li><a href="">FAQ</a></li>
             </ul>
-            <div className="flex items-center gap-5 md:gap-10 lg:gap-3 ">
+            <div className="flex items-center gap-10 lg:gap-3 ">
                 <div className="relative ">
                     <ShoppingCart />
                     {
@@ -33,7 +33,7 @@ const Navbar = ({ carts }) => {
                     }
 
                 </div>
-                <ul className={`md:hidden bg-base-100  p-3 absolute duration-1000 space-y-3  ${status ? 'top-16  right-6' : '-top-50'}`}>
+                <ul className={`lg:hidden bg-base-100  p-3 absolute duration-1000 space-y-3  ${status ? 'top-16  right-6' : '-top-50 right-6'}`}>
                     <li><a href="">Products</a></li>
                     <li><a href="">Features</a></li>
                     <li><a href="">Pricing</a></li>

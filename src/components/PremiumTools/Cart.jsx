@@ -17,10 +17,10 @@ const Cart = ({ item, carts, setCarts }) => {
 
 
     return (
-        <div className='p-4 bg-[#F9FAFC] rounded-xl flex justify-between items-center'>
+        <div className='p-4 bg-base-300  flex justify-between items-center shadow hover:shadow-2xl shadow-primary rounded-xl  transition-all duration-300 hover:scale-101'>
             <div className='flex gap-4 items-center '>
                 <div className='p-3.5  rounded-full bg-base-100 flex items-center justify-center '>
-                    <img src={icon} alt={name} />
+                    <img className='w-8 h-8' src={icon} alt={name} />
                 </div>
 
                 <div className='space-y-2 '>

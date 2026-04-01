@@ -33,7 +33,7 @@ function App() {
           <PremiumTools carts={carts} setCarts={setCarts} dataPromise={dataPromise} />
         </Suspense>
       </main>
-      <section className='bg-[#F9FAFC] w-full'>
+      <section className='bg-base-200 w-full'>
         <Steps/>
       </section>
       <Pricing/>

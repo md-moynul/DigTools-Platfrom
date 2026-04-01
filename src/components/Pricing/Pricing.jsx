@@ -9,7 +9,7 @@ const Pricing = () => {
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 '>
-                <div className='flex flex-col shadow p-6 space-y-3 bg-[#F9FAFC] rounded-xl'>
+                <div className='flex flex-col p-6 space-y-3 bg-base-300  shadow hover:shadow-2xl shadow-primary rounded-xl relative transition-all duration-300 hover:scale-101'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Starter</h3>
                         <p>Perfect for getting started</p>
@@ -25,7 +25,7 @@ const Pricing = () => {
                     </ul>
                     <button className='btn w-full bg-linear-to-l from-[#4F39F6] to-[#9514FA] font-bold text-white rounded-full'>Get Started Free</button>
                 </div>
-                <div className='flex flex-col shadow p-6 space-y-3 bg-linear-to-l from-[#4F39F6] to-[#9514FA]  text-white rounded-xl'>
+                <div className='flex flex-col  p-6 space-y-3 bg-linear-to-l from-[#4F39F6] to-[#9514FA]  text-white shadow hover:shadow-2xl shadow-primary rounded-xl relative transition-all duration-300 hover:scale-101'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Pro</h3>
                         <h4>Best for professionals</h4>
@@ -43,7 +43,7 @@ const Pricing = () => {
                     </ul>
                     <button className='btn w-full btn-white  font-bold text-primary rounded-full'>Get Start Pro Trial</button>
                 </div>
-                <div className='flex flex-col shadow p-6 space-y-3 bg-[#F9FAFC] rounded-xl'>
+                <div className='flex flex-col p-6 space-y-3 bg-base-300 shadow hover:shadow-2xl shadow-primary rounded-xl relative transition-all duration-300 hover:scale-101'>
                     <div className='space-y-2 '>
                         <h3 className='font-bold text-2xl'>Enterprise</h3>
                         <p>For teams and businesses</p>

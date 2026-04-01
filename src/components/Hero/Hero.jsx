@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="space-y-4 flex-1">
                 <div>
                     <span
-                        className="bg-[#E1E7FF]  px-4 py-2 rounded-full text-[#9514FA] hover:text-white inline-flex items-center gap-2 transition-all duration-1 hover:bg-[#839cf5]">
+                        className="bg-[#E1E7FF]  px-4 py-2 rounded-full text-[#9514FA] hover:text-white inline-flex items-center gap-2 transition-all duration-300 hover:bg-[#839cf5]">
                         <div className="h-4 w-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-[0_0_8px_#8a2be2] rounded-full animate-pulse">   
                         </div>
                         <h4 className="">New: AI-Powered Tools Available</h4>
