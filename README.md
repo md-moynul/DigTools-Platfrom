@@ -2,7 +2,7 @@
 
 ##Description:
 
-    A React project for buying AI tools. Here is a webpage for the homepage. In the 'Premium Digital Tools' section, each card's information is fetched from JSON data, and there are two buttons to toggle between the product and cart sections. When a user clicks the 'Buy Now' button, a specific tool is added to the cart, and an alert is shown. The cart button and cart icon for the products in the cart are shown in the navbar. Clicking the product button shows the product section, or clicking the cart button shows the cart section. In the cart section, when I click 'proceed to checkout', the cart is empty. This is a fully responsive design.
+A React project for buying AI tools. Here is a webpage for the homepage. In the 'Premium Digital Tools' section, each card's information is fetched from JSON data, and there are two buttons to toggle between the product and cart sections. When a user clicks the 'Buy Now' button, a specific tool is added to the cart, and an alert is shown. The cart button and cart icon for the products in the cart are shown in the navbar. Clicking the product button shows the product section, or clicking the cart button shows the cart section. In the cart section, when I click 'proceed to checkout', the cart is empty. This is a fully responsive design.
 
 ##Technology:
     1. React.js
